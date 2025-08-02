@@ -1,4 +1,4 @@
-# 🔍 Web Security Toolkit (SQLi + XSS)
+# 🔍 Web Sec Tools kit (SQL + XSS)
 
 A dual-toolkit for penetration testers to detect and analyze:
 - SQL Injection (SQLi) vulnerabilities
@@ -8,11 +8,11 @@ A dual-toolkit for penetration testers to detect and analyze:
 
 ## 📦 Tools Included
 
-### 1. SQL Injection Scanner (based on `sqlmap`)
+### 1 . SQL Injection Scanner
 
-Powerful wrapper around `sqlmap` with enhanced CLI interface.
+Powerful wrapper around with enhanced CLI interface .
 
-#### 🔹 Features:
+#### 🔹 Features :
 - Full site scan with detection of DBMS & WAF
 - Dump all databases and sensitive fields (emails, passwords)
 - Try OS-Shell access
@@ -23,12 +23,12 @@ Powerful wrapper around `sqlmap` with enhanced CLI interface.
 #### ▶️ How to Use
 
 ```bash
-python sql_tool.py
+python SQL.py
 
-Then follow the prompt:
+Then follow the prompt :
 
 [+] Enter Target URL
-[+] Choose Option:
+[+] Choose Option :
     [1] Full Website Scan
     [2] Dump All Databases
     [3] Dump Users and Passwords
@@ -37,22 +37,22 @@ Then follow the prompt:
     [6] Extract DBMS Passwords
     [0] Exit
 
-> ⚠️ Note: Requires sqlmap to be installed and accessible in your system PATH.
+> ⚠️ Note: Requires sqlmap to be installed and accessible in your system PATH .
 
 
 
 
 ---
 
-2. XSS Scanner
+ XSS Scanner
 
-Custom XSS scanner for:
+Custom XSS scanner for :
 
 Reflected XSS
 
 DOM-based XSS detection
 
-Custom payload injection
+Custom Payload injection
 
 
 🔹 Features:
@@ -70,9 +70,9 @@ Color-coded: green = vulnerable, red = safe/error
 
 ▶️ How to Use
 
-python xss_tool.py
+python XSS.py
 
-Then follow the prompt:
+Then follow the prompt :
 
 [+] Enter URL
 [1] Reflected XSS
@@ -85,37 +85,26 @@ Then follow the prompt:
 
 📁 Requirements
 
-Install dependencies using:
+Install dependencies using :
 
 pip install -r requirements.txt
 
-✅ Minimal requirements.txt:
+✅ Minimal requirements.txt :
 
 rich
 requests
 
-💡 Optional (for advanced performance):
-
-httpx
-tqdm
-lxml
-beautifulsoup4
-playwright
-
-
----
-
 ⚠️ Disclaimer
 
-This toolkit is intended for educational purposes and authorized security testing only.
-Do not scan or attack any system or website without explicit permission.
-The author is not responsible for any misuse or illegal activity.
+This toolkit is intended for educational purposes and authorized security testing only .
+Do not scan or attack any system or website without explicit permission .
+The author is not responsible for any misuse or illegal activity .
 
 
 ---
 
 📫 Author
 
-Made with purpose for learning and ethical testing.
-Modify, fork, and expand as needed.
+Made with purpose for learning and ethical testing .
+Modify, fork, and expand as needed .
 
